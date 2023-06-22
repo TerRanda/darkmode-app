@@ -1,6 +1,9 @@
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import './App.css';
+//함수명 호출 default
 import Page from './components/page';
+//변수로 호출
+import { Context } from './Context';
 
 function App() {
   const [ darkmode, setDarkmode ] = useState(false);
