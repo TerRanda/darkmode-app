@@ -39,8 +39,8 @@ section {
   background: #ddd;
 }
 .img:hover{
-  cursor: url(./images/hearts.png) 20 30, url(./images/hearts.png) 20 30, auto ;
+  cursor: url(public\images\hearts.png) 20 30, url(public\images\hearts.png) 20 30, auto ;
 }
 .img:active{
-  cursor: url(./images/heart2.png) 20 30, url(./images/heart2.png) 20 30, auto ;
+  cursor: url(public\images\heart2.png) 20 30, url(public\images\heart2.png) 20 30, auto ;
 }
