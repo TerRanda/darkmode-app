@@ -1,7 +1,7 @@
 import { useState, useContext } from 'react';
 import './App.css';
 //함수명 호출 default
-import Page from './components/page';
+import Page from './components/Page';
 //변수로 호출
 import { Context } from './Context';
 
