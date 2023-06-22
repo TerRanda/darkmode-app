@@ -1,7 +1,8 @@
-import React from 'react'
+import { useContext } from 'react'
+import { Context } from '../Context'
 
-function Main(props) {
-  const {darkmode, img} = props;
+function Main() {
+  const { darkmode, img } = useContext(Context);
   return (
     <main className={darkmode ? 'App darkmode' : 'App'}>
       <h1>Main</h1>

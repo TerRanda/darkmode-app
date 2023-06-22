@@ -14,14 +14,11 @@ function App() {
     setImg(!img);
   }
   return (
-    <>
-      <Page 
-        handleDarkmode={handleDarkmode}
-        darkmode = {darkmode}
-        setDarkmode = {setDarkmode}
-        img = {img}
-      />
-    </>
+    //Context 써서 전역 state(상태)변수로 설정.
+    <Context.Provider value = {{darkmode, setDarkmode, handleDarkmode, img}}> 
+      <Page/>
+    </Context.Provider>
+    
   )
 }
 export default App

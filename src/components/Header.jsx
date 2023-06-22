@@ -1,7 +1,10 @@
-import React from 'react'
+import { useContext } from 'react'
+import { Context } from '../Context'
 
-function Header(props) {
-  const {darkmode, handleDarkmode} = props;
+function Header() {
+  //Context 사용하기
+  const { handleDarkmode } = useContext(Context);
+
 
   return (
     <header>
