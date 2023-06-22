@@ -6,7 +6,7 @@ function Main() {
   return (
     <main className={darkmode ? 'App darkmode' : 'App'}>
       <h1>Main</h1>
-      <img src={img ? './images/terry.png' : './images/Ter_20230616_154704346_01-removebg-preview.png'}/>
+      <img className='img' src={img ? './images/terry.png' : './images/Ter_20230616_154704346_01-removebg-preview.png'}/>
     </main>
   )
 }
