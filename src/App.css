@@ -1,11 +1,8 @@
 #root {
-  max-width: 1280px;
-  padding: 2rem;
   text-align: center;
 }
 * {
   margin: 0;
-  
 }
 
 .App {
@@ -13,14 +10,12 @@
   text-align: center;
 }
 
-
 .darkmode { 
   height: 100vh;
   background: #000;
   color: #fff;
 }
-
-button {
+.button {
   padding: 10px;
   text-transform: capitalize;
 }
@@ -28,8 +23,15 @@ button {
 header {
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #ccc;
   padding: 20px;
+}
+
+.darkheader {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #000;
+  color: #fff;
 }
 
 section {
